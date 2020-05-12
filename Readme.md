@@ -12,7 +12,7 @@ usage:
 
      2.1 使用mysql, 只需要修改mysql下的配置
 
-     2.2 使用oracle, ***注意***： 如果使用oracle,配置文件中需要设置 `system.oracle-schema`的值，否则可能出现		只生成目录，不生成文件的现象！Mysql可以不设置该值。
+     2.2 使用oracle, ***注意***： 如果使用oracle,配置文件中需要设置 `system.oracle-schema`的值(在oracle数据库中，使用查询语句查询某张表的信息，其中的owner属性就是对应这张表的oracle-schema的值)，否则可能出现		只生成目录，不生成文件的现象！Mysql可以不设置该值。
 
 3. 运行 `com.immango.generator` 包下的CodeGenerator.java
 
